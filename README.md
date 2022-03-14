@@ -1,10 +1,12 @@
 ## Jemalloc extent hooks experiment
 
 ### Usage
-- run experiment
+- Run experiment
+
 `$ ./run.sh`
 
-- clean the output
+- Remove the output
+
 `$ make clean`
 
 ### Output
