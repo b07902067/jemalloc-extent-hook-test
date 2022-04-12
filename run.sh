@@ -18,7 +18,7 @@ for mmap_size in {2..16..2}; do
 done
 
 # run mallocx test
-for malloc_size in {1..8}; do
+for malloc_size in {1..16}; do
     echo "$malloc_size" >> malloc_test_out
     ./mem_test 8 $malloc_size  | grep "Vm" >> malloc_test_out
     echo "" >> malloc_test_out
