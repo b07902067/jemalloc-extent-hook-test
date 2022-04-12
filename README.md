@@ -2,7 +2,7 @@
 
 ### Usage
 - Run experiment
-
+`$ make`
 `$ ./run.sh`
 
 - Remove the output
